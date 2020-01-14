@@ -64,9 +64,9 @@ nav5[4].textContent = siteContent["nav"]["nav-item-5"];
 const nav6 = document.querySelectorAll('a');
 nav6[5].textContent = siteContent["nav"]["nav-item-6"]
 
-/////ends navBar///
+/////ends navBar//////
 
-////cta box///////
+////cta box//////////
 const grabCTA = document.querySelectorAll('h1');
 grabCTA[0].textContent = siteContent["cta"]["h1"];
 
