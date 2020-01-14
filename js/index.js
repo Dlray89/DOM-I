@@ -76,7 +76,7 @@ getButton.textContent = siteContent["cta"]["button"];
 let middleImg = document.getElementById("middle-img");
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
 
-//////ends cta box//////
+//////ends cta box////
 
 /////main content//////
 
