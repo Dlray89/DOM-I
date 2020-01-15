@@ -48,21 +48,31 @@ header.setAttribute('src', siteContent["cta"]["img-src"])
 //navBar///
 const nav1 = document.querySelectorAll('a');
 nav1[0].textContent = siteContent["nav"]["nav-item-1"];
+nav1[0].style.color = "green"
 
 const nav2 = document.querySelectorAll('a');
 nav2[1].textContent = siteContent["nav"]["nav-item-2"];
+nav2[1].style.color ="green"
+
 
 const nav3 = document.querySelectorAll('a');
 nav3[2].textContent = siteContent["nav"]["nav-item-3"];
+nav3[2].style.color = "green"
 
 const nav4 = document.querySelectorAll('a');
 nav4[3].textContent = siteContent["nav"]["nav-item-4"];
+nav4[3].style.color = "green"
+
 
 const nav5 = document.querySelectorAll('a');
 nav5[4].textContent = siteContent["nav"]["nav-item-5"];
+nav5[4].style.color = "green"
+
 
 const nav6 = document.querySelectorAll('a');
 nav6[5].textContent = siteContent["nav"]["nav-item-6"]
+nav6[5].style.color = "green"
+
 
 /////ends navBar//////
 
@@ -135,3 +145,25 @@ grabContactP3[7].textContent = siteContent["contact"]["email"];
 
 const grabFooter = document.querySelectorAll('p');
 grabFooter[8].textContent = siteContent["footer"]["copyright"];
+
+/////////////////created elements//////////////////////
+
+
+const newNav = document.createElement('nav');
+newNav.textContent = "yesssssssssssssssss";
+newNav.style.color = "green";
+newNav.style.fontSize = "12.0px"
+console.log(newNav);
+
+const newLink = document.querySelector('nav');
+newLink.appendChild(newNav);
+
+
+newNav2 = document.createElement('nav');
+newNav2.textContent = "oh YEAH"
+newNav2.style.color = "green"
+newNav2.style.fontSize = "12.0px"
+console.log(newNav2)
+
+const newLink2 = document.querySelector('a');
+newLink2.prepend(newNav2);
